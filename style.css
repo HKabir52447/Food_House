@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(83, 71, 71);
+}
+/*welcome section*/
+#welcome{
+display: flex;
+margin-bottom: 20px;
+}
+.welcome_side{
+    width: 45%;
+    margin: 30px 5%;
+}
+.welcome_side h1{
+    font-size: 60px;
+    margin: 50px 20px 20px;
+}
+.welcome_side span{
+    color: #FD5934;
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+ button{
+    margin: 10px 0;
+    padding: 12px 25px;
+    border-radius: 30px;
+    border: none;
+    background-image: linear-gradient(to right, #FD5934, #FC9149);
+    cursor: pointer;
+}
+.welcome_side img{
+  width: 100%;
+  height: auto;
+}
